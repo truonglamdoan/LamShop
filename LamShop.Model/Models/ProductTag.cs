@@ -8,20 +8,15 @@ using System.Threading.Tasks;
 
 namespace LamShop.Model.Models
 {
-    [Table("OrderDetails")]
-    public class OrderDetail
+    [Table("ProductTags")]
+    public class ProductTag
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int OrderID { get; set; }
-        [Required]
         public int ProductID { get; set; }
-        public int Warranty { get; set; }
-
-        [ForeignKey("OrderID")]
-        public virtual Order Order { get; set; }
-
         [ForeignKey("ProductID")]
-        public virtual ProductCategory ProductCategory { get; set; }
+        public virtual Tag Tag { get; set; }
+        [Required]
+        public string TagID { get; set; }
     }
 }
