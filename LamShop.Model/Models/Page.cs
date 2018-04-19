@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LamShop.Model.Abstracts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,25 +9,14 @@ using System.Threading.Tasks;
 
 namespace LamShop.Model.Models
 {
-    [Table("Menus")]
-    public class Menu
+    [Table("Pages")]
+    public class Page : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [Required]
         public string Name { get; set; }
-        [Required]
-        public string URL { get; set; }
-        public int DisplayOrder { get; set; }
-        [Required]
-        public int GroupID { get; set; }
-
-        [ForeignKey("GroupID")]
-        public virtual MenuGroup MenuGroup { get; set; }
-        public string Target { get; set; }
-        [Required]
-        public bool Status { get; set; }
-
+        public string Content { get; set; }
     }
 }
