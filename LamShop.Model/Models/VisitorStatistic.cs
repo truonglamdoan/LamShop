@@ -17,6 +17,7 @@ namespace LamShop.Model.Models
         [Required]
         public DateTime VisitedDate { get; set; }
         [Required]
+        [MaxLength(50)]
         public string IPAddress { get; set; }
     }
 }

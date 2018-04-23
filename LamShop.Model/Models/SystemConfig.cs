@@ -15,10 +15,11 @@ namespace LamShop.Model.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [Required]
+        [Column(TypeName ="varchar")]
+        [MaxLength(50)]
         public string Code { get; set; }
-        [Required]
+        [MaxLength(50)]
         public string ValueString { get; set; }
-        [Required]
-        public string ValueInt { get; set; }
+        public int? ValueInt { get; set; }
     }
 }

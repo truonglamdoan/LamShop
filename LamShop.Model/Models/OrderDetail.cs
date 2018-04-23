@@ -14,9 +14,9 @@ namespace LamShop.Model.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { get; set; }
-        [Required]
+        [Key]
         public int ProductID { get; set; }
-        public int Warranty { get; set; }
+        public int Quantity { get; set; }
 
         [ForeignKey("OrderID")]
         public virtual Order Order { get; set; }

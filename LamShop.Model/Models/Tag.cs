@@ -13,10 +13,13 @@ namespace LamShop.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [MaxLength(50)]
         public string ID { get; set; }
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
         [Required]
+        [MaxLength(50)]
         public string Type { get; set; }
 
         public virtual IEnumerable<ProductTag> ProductTags { get; set; }
