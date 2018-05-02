@@ -1,0 +1,5 @@
+D:\Cong ty\First\LamShop.Service\bin\Debug\LamShop.Service.dll
+D:\Cong ty\First\LamShop.Service\bin\Debug\LamShop.Service.pdb
+D:\Cong ty\First\LamShop.Service\obj\Debug\LamShop.Service.csprojResolveAssemblyReference.cache
+D:\Cong ty\First\LamShop.Service\obj\Debug\LamShop.Service.dll
+D:\Cong ty\First\LamShop.Service\obj\Debug\LamShop.Service.pdb

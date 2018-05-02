@@ -1,0 +1,14 @@
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Data.dll
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Data.pdb
+D:\Cong ty\First\LamShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cong ty\First\LamShop.Data\bin\Debug\EntityFramework.dll
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Common.dll
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Common.pdb
+D:\Cong ty\First\LamShop.Data\obj\Debug\LamShop.Data.csprojResolveAssemblyReference.cache
+D:\Cong ty\First\LamShop.Data\obj\Debug\LamShop.Data.dll
+D:\Cong ty\First\LamShop.Data\obj\Debug\LamShop.Data.pdb
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Data.dll.config
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Model.dll
+D:\Cong ty\First\LamShop.Data\bin\Debug\LamShop.Model.pdb
+D:\Cong ty\First\LamShop.Data\bin\Debug\EntityFramework.xml
+D:\Cong ty\First\LamShop.Data\bin\Debug\EntityFramework.SqlServer.xml

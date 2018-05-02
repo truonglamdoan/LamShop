@@ -1,0 +1,5 @@
+D:\Cong ty\First\LamShop.Model\bin\Debug\LamShop.Model.dll
+D:\Cong ty\First\LamShop.Model\bin\Debug\LamShop.Model.pdb
+D:\Cong ty\First\LamShop.Model\obj\Debug\LamShop.Model.dll
+D:\Cong ty\First\LamShop.Model\obj\Debug\LamShop.Model.pdb
+D:\Cong ty\First\LamShop.Model\bin\Debug\LamShop.Model.dll.config
