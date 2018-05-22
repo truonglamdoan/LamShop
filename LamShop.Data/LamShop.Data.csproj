@@ -41,7 +41,44 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDbFactory.cs" />
+    <Compile Include="Infrastructure\IResponsitory.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\RespositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="LamShopDbContext.cs" />
+    <Compile Include="Migrations\201805030422599_InitialDB.cs" />
+    <Compile Include="Migrations\201805030422599_InitialDB.Designer.cs">
+      <DependentUpon>201805030422599_InitialDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805040353338_InitialDBCreate.cs" />
+    <Compile Include="Migrations\201805040353338_InitialDBCreate.Designer.cs">
+      <DependentUpon>201805040353338_InitialDBCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Responsoties\FooterRepository.cs" />
+    <Compile Include="Responsoties\MenuGroupRepository.cs" />
+    <Compile Include="Responsoties\MenuRepository.cs" />
+    <Compile Include="Responsoties\OrderDetailRepository.cs" />
+    <Compile Include="Responsoties\OrderRepository.cs" />
+    <Compile Include="Responsoties\PageRepository.cs" />
+    <Compile Include="Responsoties\PostCategoryRepository.cs" />
+    <Compile Include="Responsoties\PostRepository.cs" />
+    <Compile Include="Responsoties\PostTagRepository.cs" />
+    <Compile Include="Responsoties\ProductCategoryRepository.cs" />
+    <Compile Include="Responsoties\ProductRepository.cs" />
+    <Compile Include="Responsoties\ProductTagRepository.cs" />
+    <Compile Include="Responsoties\SlideRepository.cs" />
+    <Compile Include="Responsoties\SupportOnlineRepository.cs" />
+    <Compile Include="Responsoties\SystemConfigRepository.cs" />
+    <Compile Include="Responsoties\TagRepository.cs" />
+    <Compile Include="Responsoties\VisitorStatisticRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="EntityFramework">
@@ -53,6 +90,53 @@
       <Project>{fe89eeb7-2abc-421d-935a-17d5f20d1a5a}</Project>
       <Name>LamShop.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805030422599_InitialDB.resx">
+      <DependentUpon>201805030422599_InitialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805040353338_InitialDBCreate.resx">
+      <DependentUpon>201805040353338_InitialDBCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\LamShop.Data.Migrations.InitialDB.resources" />
+    <EmbeddedResource Include="obj\Debug\LamShop.Data.Migrations.InitialDBCreate.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bin\Debug\LamShop.Data.dll.config" />
+    <None Include="bin\Debug\LamShop.Model.dll.config" />
+    <None Include="obj\Debug\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\LamShop.Data.csproj.CopyComplete" />
+    <None Include="obj\Debug\LamShop.Data.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\LamShop.Data.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\LamShop.Data.csprojAssemblyReference.cache" />
+    <None Include="obj\LamShop.Data.csproj.nuget.cache" />
+    <None Include="obj\LamShop.Data.csproj.nuget.g.props" />
+    <None Include="obj\LamShop.Data.csproj.nuget.g.targets" />
+    <None Include="obj\project.assets.json" />
+    <None Include="obj\Release\LamShop.Data.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\LamShop.Data.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\LamShop.Common.dll" />
+    <Content Include="bin\Debug\LamShop.Common.pdb" />
+    <Content Include="bin\Debug\LamShop.Data.dll" />
+    <Content Include="bin\Debug\LamShop.Data.pdb" />
+    <Content Include="bin\Debug\LamShop.Model.dll" />
+    <Content Include="bin\Debug\LamShop.Model.pdb" />
+    <Content Include="obj\Debug\LamShop.Data.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\LamShop.Data.dll" />
+    <Content Include="obj\Debug\LamShop.Data.pdb" />
+    <Content Include="obj\Debug\TempPE\DataSet1.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
