@@ -12,14 +12,12 @@ namespace LamShop.Model.Models
     public class Tag
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [MaxLength(50)]
+        [Column(TypeName ="varchar")]
         public string ID { get; set; }
         [Required]
-        [MaxLength(50)]
         public string Name { get; set; }
         [Required]
-        [MaxLength(50)]
         public string Type { get; set; }
 
         public virtual IEnumerable<ProductTag> ProductTags { get; set; }

@@ -7,8 +7,7 @@ namespace LamShop.Model.Models
     public class Footer
     {
         [Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [MaxLength(50)]//not write-->maxlength: max-->
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string ID { get; set; }
 
         [Required]

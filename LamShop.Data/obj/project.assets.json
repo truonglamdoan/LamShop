@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
       "EntityFramework/6.2.0": {
@@ -14,15 +14,6 @@
         "runtime": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "LamShop.Common/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LamShop.Common.dll": {}
         }
       }
     },
@@ -40,15 +31,6 @@
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
         }
-      },
-      "LamShop.Common/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.5.2/win-x64": {
@@ -65,15 +47,6 @@
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
         }
-      },
-      "LamShop.Common/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.5.2/win-x86": {
@@ -89,15 +62,6 @@
         "runtime": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "LamShop.Common/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/LamShop.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LamShop.Common.dll": {}
         }
       }
     }
@@ -129,67 +93,41 @@
         "tools/install.ps1",
         "tools/migrate.exe"
       ]
-    },
-    "LamShop.Common/1.0.0": {
-      "type": "project",
-      "path": "../LamShop.Common/LamShop.Common.csproj",
-      "msbuildProject": "../LamShop.Common/LamShop.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
-      "EntityFramework >= 6.2.0",
-      "LamShop.Common >= 1.0.0"
+      "EntityFramework >= 6.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\truon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\truon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cong ty\\First\\LamShop.Data\\LamShop.Data.csproj",
+      "projectUniqueName": "D:\\Cong ty\\LamShop\\LamShop.Data\\LamShop.Data.csproj",
       "projectName": "LamShop.Data",
-      "projectPath": "D:\\Cong ty\\First\\LamShop.Data\\LamShop.Data.csproj",
-      "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-      "outputPath": "D:\\Cong ty\\First\\LamShop.Data\\obj\\",
+      "projectPath": "D:\\Cong ty\\LamShop\\LamShop.Data\\LamShop.Data.csproj",
+      "outputPath": "D:\\Cong ty\\LamShop\\LamShop.Data\\obj\\",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
-      ],
       "originalTargetFrameworks": [
         "net452"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "net452": {
-          "projectReferences": {
-            "D:\\Cong ty\\First\\LamShop.Common\\LamShop.Common.csproj": {
-              "projectPath": "D:\\Cong ty\\First\\LamShop.Common\\LamShop.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
-    "frameworks": {
-      "net452": {
-        "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.2.0, )"
-          }
-        }
+    "dependencies": {
+      "EntityFramework": {
+        "target": "Package",
+        "version": "[6.2.0, )"
       }
+    },
+    "frameworks": {
+      "net452": {}
     },
     "runtimes": {
       "win": {
