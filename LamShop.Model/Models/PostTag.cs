@@ -14,15 +14,10 @@ namespace LamShop.Model.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int PostID { get; set; }
-
         [ForeignKey("PostID")]
         public virtual Post Post { get; set; }
-
-        [Key]
-        [Column(TypeName ="varchar")]
-        [MaxLength(50)]
+        [Required]
         public string TagID { get; set; }
-
         [ForeignKey("TagID")]
         public virtual Tag Tag { get; set; }
     }

@@ -12,18 +12,11 @@ namespace LamShop.Model.Models
     public class ProductTag
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductID { get; set; }
-
         [ForeignKey("ProductID")]
-        public virtual Product Product { get; set; }
-
-
-        [Key]
-        [Column(TypeName ="varchar")]
-        [MaxLength(50)]
-        public string TagID { get; set; }
-
-        [ForeignKey("TagID")]
         public virtual Tag Tag { get; set; }
+        [Required]
+        public string TagID { get; set; }
     }
 }

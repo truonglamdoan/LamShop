@@ -12,7 +12,6 @@ namespace LamShop.Model.Models
         public int ID { get; set; }
 
         [Required]
-        [MaxLength(50)]
         public string Name { get; set; }
 
         public virtual IEnumerable<Menu> Menus { get; set; }
