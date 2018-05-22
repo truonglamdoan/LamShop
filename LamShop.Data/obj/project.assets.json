@@ -143,26 +143,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\truon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\truon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cong ty\\First\\LamShop.Data\\LamShop.Data.csproj",
+      "projectUniqueName": "D:\\Cong ty\\First\\LamShop\\LamShop.Data\\LamShop.Data.csproj",
       "projectName": "LamShop.Data",
-      "projectPath": "D:\\Cong ty\\First\\LamShop.Data\\LamShop.Data.csproj",
+      "projectPath": "D:\\Cong ty\\First\\LamShop\\LamShop.Data\\LamShop.Data.csproj",
       "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
-      "outputPath": "D:\\Cong ty\\First\\LamShop.Data\\obj\\",
+      "outputPath": "D:\\Cong ty\\First\\LamShop\\LamShop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net452"
@@ -174,8 +169,8 @@
       "frameworks": {
         "net452": {
           "projectReferences": {
-            "D:\\Cong ty\\First\\LamShop.Common\\LamShop.Common.csproj": {
-              "projectPath": "D:\\Cong ty\\First\\LamShop.Common\\LamShop.Common.csproj"
+            "D:\\Cong ty\\First\\LamShop\\LamShop.Common\\LamShop.Common.csproj": {
+              "projectPath": "D:\\Cong ty\\First\\LamShop\\LamShop.Common\\LamShop.Common.csproj"
             }
           }
         }
